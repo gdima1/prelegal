@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# FastAPI / Uvicorn
+*.log
+
+# Next.js
+.next/
+out/
+node_modules/
+.npm
+.yarn/
+yarn-error.log
+
+# Build outputs
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.json
+coverage/
+.nyc_output/
+
+# Type checking
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Docker
+*.env.local
+*.env.production
